@@ -1,0 +1,28 @@
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    cursor:context-menu;
+    padding-bottom: 20px;
+}
+
+.post p {
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.border {
+    margin-left: 20%;
+    margin-right:20%;
+    border-style: groove;
+}
+.freqel {
+    margin: 6px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.freqel :hover { 
+    background-color: whitesmoke;
+}
